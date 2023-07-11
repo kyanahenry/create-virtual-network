@@ -10,7 +10,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
+- Bastion
 - Ubuntu
+- NextCloud
 - PowerShell
 
 <h2>Operating Systems Used </h2>
@@ -18,12 +20,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>Project Outline</h2>
 
-- Step 1
+- Create a Virtual Network, then Protect a Subnet using a NSG
 - Step 2
 - Step 3
-- Step 4
+- Publish an IP address, then create DNS label
 
 <h2>Deployment and Configuration Steps</h2>
 
