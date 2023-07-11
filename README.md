@@ -24,16 +24,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Create a Virtual Network, then Protect a Subnet using a NSG
 - Step 2
-- Step 3
 - Publish an IP address, then create DNS label
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/kyanahenry/create-virtual-network/assets/137842747/8d581ed4-c2ce-4b87-9f99-4335acd5631c">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First, I created a Resource Group in Microsoft Azure then set up a Virtual Network inside the Resource Group. As shown above, I've created a Network Security Group and added it to our subnet to help filter inbound and outbound traffic between the internet and Azure resources. 
 </p>
 <br />
 
