@@ -4,16 +4,14 @@
 </p>
 
 <h1>Create a Virtual Machine and Deploy a Web Server</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial outlines how to set up an Ubuntu Virtual Machine and install a Nextcloud server, then launching it via a public IP address.<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
 - Bastion
 - Ubuntu
 - NextCloud
-- PowerShell
 
 <h2>Operating Systems Used </h2>
 
@@ -23,7 +21,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Project Outline</h2>
 
 - Create a Virtual Network, then Protect a Subnet using a NSG
-- Step 2
+- Create a Virtual Machine, Deploy via Bastion
 - Publish an IP address, then create DNS label
 
 <h2>Deployment and Configuration Steps</h2>
@@ -37,16 +35,16 @@ First, I created a Resource Group in Microsoft Azure then set up a Virtual Netwo
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/kyanahenry/create-virtual-network/assets/137842747/81eebcdb-97eb-4714-81dd-9d75644ce921"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, I created a Virtual Machine in Azure utilizing Ubuntu servers. I connected to the Virtual Machine using SSH via Bastion (as shown above). 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/kyanahenry/create-virtual-network/assets/137842747/b0311768-4b62-4aca-beb7-d1fa5fffd67e"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After deploying Bastion, I installed Nextcloud in our Virtual Machine and associated a public IP to the server. Lastly, I set up a DNS entry for the public IP address in order to access it. 
 </p>
