@@ -4,7 +4,7 @@
 </p>
 
 <h1>Create a Virtual Machine and Deploy a Web Server</h1>
-This tutorial outlines how to set up an Ubuntu Virtual Machine and install a Nextcloud server, then launching it via a public IP address.<br />
+This tutorial outlines how to set up an Ubuntu Virtual Machine and install a Nextcloud server, then launch it via a public IP address.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,9 +22,7 @@ This tutorial outlines how to set up an Ubuntu Virtual Machine and install a Nex
 
 - Create a Virtual Network, then Protect a Subnet using a NSG
 - Create a Virtual Machine, Deploy via Bastion
-- Publish an IP address, then create DNS label
-
-<h2>Deployment and Configuration Steps</h2>
+- Publish an IP address, then create a DNS label
 
 <p>
 <img src="https://github.com/kyanahenry/create-virtual-network/assets/137842747/8d581ed4-c2ce-4b87-9f99-4335acd5631c">
@@ -46,5 +44,5 @@ Next, I created a Virtual Machine in Azure utilizing Ubuntu servers. I connected
 <img src="https://github.com/kyanahenry/create-virtual-network/assets/137842747/b0311768-4b62-4aca-beb7-d1fa5fffd67e"/>
 </p>
 <p>
-After deploying Bastion, I installed Nextcloud in our Virtual Machine and associated a public IP to the server. Lastly, I set up a DNS entry for the public IP address in order to access it. 
+After deploying Bastion, I installed Nextcloud on our Virtual Machine and associated a public IP to the server. Lastly, I set up a DNS entry for the public IP address in order to access it. 
 </p>
